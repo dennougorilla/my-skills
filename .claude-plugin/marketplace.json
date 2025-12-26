@@ -5,17 +5,15 @@
     "url": "https://github.com/dennougorilla"
   },
   "metadata": {
-    "description": "Personal collection of AI development skills for Claude Code",
-    "version": "1.0.0"
+    "version": "1.0.0",
+    "description": "Personal collection of AI development skills for Claude Code"
   },
   "plugins": [
     {
-      "name": "domain-extractor",
-      "source": {
-        "source": "github",
-        "repo": "dennougorilla/my-skills",
-        "path": "plugins/domain-extractor"
-      }
+      "name": "domain-skills",
+      "description": "Extract technology-free domain models from codebase for stakeholder understanding",
+      "skills": ["domain-extractor"],
+      "strict": false
     }
   ]
 }

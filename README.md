@@ -1,23 +1,13 @@
 # my-skills
 
-Claude Code Skills Marketplace - Personal collection of AI development skills
+Personal collection of AI development skills for Claude Code.
 
 ## Installation
-
-### 1. Add the Marketplace
 
 In Claude Code, run:
 
 ```
-/plugin marketplace add dennougorilla/my-skills
-```
-
-### 2. Install Plugins
-
-Choose which plugins to install:
-
-```
-/plugin install domain-extractor@dennougorilla
+/install-skill dennougorilla/my-skills
 ```
 
 ## Available Skills
@@ -43,14 +33,12 @@ Extract technology-free domain models from codebase. Produces pure business-lang
 ```
 my-skills/
 ├── .claude-plugin/
-│   └── marketplace.json          # Marketplace configuration
-└── plugins/
-    └── domain-extractor/
-        ├── .claude-plugin/
-        │   └── plugin.json        # Plugin configuration
-        └── skills/
-            └── domain-extractor/
-                └── SKILL.md       # Skill documentation
+│   └── marketplace.json    # Plugin configuration
+├── skills/
+│   └── domain-extractor/
+│       └── SKILL.md        # Skill definition
+├── README.md
+└── LICENSE
 ```
 
 ## License

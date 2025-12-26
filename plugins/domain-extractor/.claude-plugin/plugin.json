@@ -1,8 +1,0 @@
-{
-  "name": "domain-extractor",
-  "version": "1.0.0",
-  "description": "Extract technology-free domain models from codebase for stakeholder understanding",
-  "skills": [
-    "skills/domain-extractor"
-  ]
-}
