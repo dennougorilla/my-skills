@@ -1,0 +1,21 @@
+{
+  "name": "my-skills",
+  "owner": {
+    "name": "dennougorilla",
+    "url": "https://github.com/dennougorilla"
+  },
+  "metadata": {
+    "description": "Personal collection of AI development skills for Claude Code",
+    "version": "1.0.0"
+  },
+  "plugins": [
+    {
+      "name": "domain-extractor",
+      "source": {
+        "source": "github",
+        "repo": "dennougorilla/my-skills",
+        "path": "plugins/domain-extractor"
+      }
+    }
+  ]
+}
